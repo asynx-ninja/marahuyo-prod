@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: "Alta-Regular";   /*Can be any text*/
+  src: local("Alta-Regular"),
+    url("../public/assets/fonts/Alta_regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kagitingan-Bold";   /*Can be any text*/
+  src: local("Kagitingan-Bold"),
+    url("../public/assets/fonts/Kagitingan-Bold.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Inter', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
